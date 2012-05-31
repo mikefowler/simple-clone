@@ -1,0 +1,25 @@
+[
+{
+  "id": "view",
+  "children":
+  [
+    { "id" : "groups" },
+    {
+      "caption": "SimpleClone",
+      "children":
+      [
+        { 
+          "command" : "simple_clone", 
+          "caption" : "Split Down", 
+          "args" : { "direction" : "down" }
+        },
+        { 
+          "command" : "simple_clone", 
+          "caption" : "Split Right", 
+          "args" : { "direction" : "right" }
+        }
+      ]
+    }
+  ]
+}
+]

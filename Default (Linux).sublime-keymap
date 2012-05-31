@@ -1,0 +1,12 @@
+[
+  { 
+    "keys": ["ctrl+shift+right"], 
+    "command": "simple_clone", 
+    "args": { "direction" : "right"}
+  },
+  { 
+    "keys": ["ctrl+shift+down"], 
+    "command": "simple_clone", 
+    "args": { "direction" : "down"}
+  }
+]
