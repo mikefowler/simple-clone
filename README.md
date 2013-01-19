@@ -29,12 +29,14 @@ If you’re unhappy with default keymap, you can disable individual keyboard sho
 Use a comma-separated list of clone locations for which default keyboard shortcuts should be disabled. For example, if you want to release Ctrl+Shift+Right (“Clone to Right View”), you must set the following value:
 
 "disabled_keymaps": "right"
+
 You should refer to the SimpleClone.sublime-settings file for a list of valid values.
 
 To disable all default shortcuts, set value to all:
 
 "disabled_keymaps": "all"
-Not that if you disabled any action like so and you’ve created your own keyboard shortcuts, you should remove the simpleclone_keymap_enabled.LOCATION_NAME context, as this is the key that disables locations.
+
+Note that if you disabled any action like so and you’ve created your own keyboard shortcuts, you should remove the simpleclone_keymap_enabled.LOCATION_NAME context, as this is the key that disables locations.
 
 ## License
 
