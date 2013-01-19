@@ -1,0 +1,29 @@
+[
+	{
+		"caption": "-"
+	},
+	{
+		"caption": "Clone to Right View",
+		"command": "simple_clone",
+		"args": {
+			"location": "right"
+		}
+	},
+	{
+		"caption": "Clone to Bottom View",
+		"command": "simple_clone",
+		"args": {
+			"location": "down"
+		}
+	},
+	{
+		"command": "simple_clone",
+		"caption": "Clone to New Window",
+		"args": {
+			"location": "new_window"
+		}
+	},
+	{
+		"caption": "-"
+	}
+]
