@@ -1,25 +1,73 @@
 [
-{
-  "id": "view",
-  "children":
-  [
-    { "id" : "groups" },
+	{
+		"id": "view",
+		"children": [
+			{
+				"id": "groups"
+			},
+			{
+				"caption": "SimpleClone",
+				"children": [
+					{
+						"command": "simple_clone",
+						"caption": "Split Down",
+						"args": {
+							"location": "down"
+						}
+					},
+					{
+						"command": "simple_clone",
+						"caption": "Split Right",
+						"args": {
+							"location": "right"
+						}
+					},
+					{
+						"command": "simple_clone",
+						"caption": "Clone to New Window",
+						"args": {
+							"location": "new_window"
+						}
+					}
+				]
+			}
+		]
+	},
     {
-      "caption": "SimpleClone",
-      "children":
-      [
-        { 
-          "command" : "simple_clone", 
-          "caption" : "Split Down", 
-          "args" : { "direction" : "down" }
-        },
-        { 
-          "command" : "simple_clone", 
-          "caption" : "Split Right", 
-          "args" : { "direction" : "right" }
-        }
-      ]
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "SimpleClone",
+                        "children":
+                        [
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/SimpleClone/SimpleClone.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/SimpleClone.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-  ]
-}
 ]

@@ -1,12 +1,44 @@
 [
-  { 
-    "keys": ["super+shift+right"], 
-    "command": "simple_clone", 
-    "args": { "direction" : "right"}
-  },
-  { 
-    "keys": ["super+shift+down"], 
-    "command": "simple_clone", 
-    "args": { "direction" : "down"}
-  }
+	{
+		"keys": [
+			"super+shift+right"
+		],
+		"command": "simple_clone",
+		"args": {
+			"location": "right"
+		},
+		"context": [
+			{
+				"key": "simpleclone_keymap_enabled.right"
+			}
+		]
+	},
+	{
+		"keys": [
+			"super+shift+down"
+		],
+		"command": "simple_clone",
+		"args": {
+			"location": "down"
+		},
+		"context": [
+			{
+				"key": "simpleclone_keymap_enabled.down"
+			}
+		]
+	},
+	{
+		"keys": [
+			"super+shift+alt+n"
+		],
+		"command": "simple_clone",
+		"args": {
+			"location": "new_window"
+		},
+		"context": [
+			{
+				"key": "simpleclone_keymap_enabled.new_window"
+			}
+		]
+	}
 ]

@@ -1,0 +1,9 @@
+{
+	// Copy any modified settings to `User/SimpleClone.sublime-settings`
+	// otherwise modifications will not survive updates.
+
+	// A comma-separated list of clone locations to disable keymapping for
+	// Current valid locations: all, right, down, new_window
+	// Use "all" as a convenient way to disable all keymappings
+	"disabled_keymaps": ""
+}
