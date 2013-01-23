@@ -4,23 +4,29 @@
 	},
 	{
 		"caption": "Clone to Right View",
-		"command": "simple_clone",
+		"command": "simple_clone_tab_context",
 		"args": {
-			"location": "right"
+			"location": "right",
+			"group": -1,
+			"index": -1
 		}
 	},
 	{
 		"caption": "Clone to Bottom View",
-		"command": "simple_clone",
+		"command": "simple_clone_tab_context",
 		"args": {
-			"location": "down"
+			"location": "down",
+			"group": -1,
+			"index": -1
 		}
 	},
 	{
-		"command": "simple_clone",
+		"command": "simple_clone_tab_context",
 		"caption": "Clone to New Window",
 		"args": {
-			"location": "new_window"
+			"location": "new_window",
+			"group": -1,
+			"index": -1
 		}
 	},
 	{
