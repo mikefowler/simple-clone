@@ -157,7 +157,7 @@ def createLayout(rows, cols):
 
     # Create rows array
     if rows > 1:
-        for x in xrange(1, rows):
+        for x in range(1, rows):
             increment = rowIncrement * x
             layoutRows.append(increment)
 
@@ -165,7 +165,7 @@ def createLayout(rows, cols):
 
     # Create columns arraydown
     if cols > 1:
-        for y in xrange(1, cols):
+        for y in range(1, cols):
             increment = colIncrement * y
             layoutCols.append(increment)
 
