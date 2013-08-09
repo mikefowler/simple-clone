@@ -1,6 +1,6 @@
 ## SimpleClone
 
-SimpleClone is a Sublime Text 2 plugin for lightning-fast file cloning.
+SimpleClone is a Sublime Text 2 & 32 plugin for lightning-fast file cloning.
 
 ## Documentation
 
@@ -22,7 +22,7 @@ You can also clone your view via the View Menu or by right clicking on a file's 
 
 ## Overriding keyboard shortcuts
 
-Sublime Text 2 is a great text editor with lots of features and actions. Most of these actions are bound to keyboard shortcuts so it’s nearly impossible to provide convenient plugin shortcuts for third-party plugins.
+Sublime Text is a great text editor with lots of features and actions. Most of these actions are bound to keyboard shortcuts so it’s nearly impossible to provide convenient plugin shortcuts for third-party plugins.
 
 If you’re unhappy with default keymap, you can disable individual keyboard shortcuts with disabled_keymaps preference of SimpleClone.sublime-settings file.
 
@@ -40,7 +40,7 @@ Note that if you disabled any action like so and you’ve created your own keybo
 
 ## License
 
-Copyright (c) 2012 Mike Fowler
+Copyright (c) 2012-13 Mike Fowler
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
