@@ -1,6 +1,6 @@
 ## SimpleClone
 
-SimpleClone is a Sublime Text 2 & 32 plugin for lightning-fast file cloning.
+SimpleClone is a Sublime Text 2 & 3 plugin for lightning-fast file cloning.
 
 ## Documentation
 
