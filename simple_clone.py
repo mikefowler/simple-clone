@@ -4,6 +4,9 @@ import sublime_plugin
 import re
 
 
+settings = None
+
+
 # Clone the current view
 class SimpleCloneCommand(sublime_plugin.WindowCommand):
     def run(self, location):  # --Matt Bolt: Renamed direction variable to the more symantically appropriate name 'location' due to additional options
@@ -203,4 +206,10 @@ class ActionContextHandler(sublime_plugin.EventListener):
         return should_perform_clone(location)
 
 
-settings = sublime.load_settings('SimpleClone.sublime-settings')
+def plugin_loaded():
+    global settings
+    settings = sublime.load_settings('SimpleClone.sublime-settings')
+
+
+if int(sublime.version()) < 3000:
+    plugin_loaded()
